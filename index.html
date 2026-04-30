@@ -1,0 +1,678 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Kumar — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div id="loader">
+        <div class="loader-text">AK</div>
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <nav>
+        <a href="#hero" class="nav-logo">Ajay Kumar</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#mindset">Mindset</a></li>
+            <li><a href="#hobbies">Life</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"></button>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="orb orb1"></div>
+            <div class="orb orb2"></div>
+            <div class="orb orb3"></div>
+        </div>
+        <div class="hero-inner">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open to opportunities Â· Kitchener, Ontario
+            </div>
+            <h1 class="hero-title">
+                I don't build<br><span class="accent">websites.</span><br>I craft experiences.
+            </h1>
+            <p class="hero-sub">
+                Software Engineer with 5+ years turning complex problems into elegant, performant systems â€” with
+                Spring Boot,
+                Node.js, React, and a deep obsession for clean architecture.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View My Work â†“</a>
+                <a href="#contact" class="btn-secondary">Let's Talk â†’</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="hero-scroll-line"></div>
+            scroll
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="about-story">
+            <div class="section-label fade-up">A little about me</div>
+            <h2 class="section-title fade-up">From <span>curiosity</span><br>to craft</h2>
+            <p class="fade-up">I started writing code because I was curious how things worked. I stayed because building
+                software that actually helps people is one of the most satisfying things I've ever done.</p>
+            <p class="fade-up">Five years in, and I still get a kick out of shaving 35% off an API response time, or
+                watching
+                a billing workflow I automated justâ€¦ work. No errors. No fires. Just clean, reliable software doing
+                its job.
+            </p>
+            <p class="fade-up">My toolkit spans Spring Boot and Node.js backends, React/Angular frontends, AWS, Docker,
+                and
+                CI/CD pipelines â€” but what I'm really good at is thinking through systems holistically. Performance,
+                reliability, developer experience: all of it matters.</p>
+            <p class="fade-up">Currently freelancing on Upwork and open to what's next. Chandigarh-born, Canadian-based,
+                globally curious.</p>
+            <div class="about-stats fade-up">
+                <div class="stat-card">
+                    <div class="stat-num">5+</div>
+                    <div class="stat-label">Years building production software</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">35%</div>
+                    <div class="stat-label">Avg API response improvement</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">100%</div>
+                    <div class="stat-label">On-time delivery rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num">76%</div>
+                    <div class="stat-label">Revenue boost via gateway fixes</div>
+                </div>
+            </div>
+        </div>
+        <div class="about-visual fade-up">
+            <div class="about-card-main">
+                <div class="av-header">
+                    <div class="av-avatar">AK</div>
+                    <div>
+                        <div class="av-name">Ajay Kumar</div>
+                        <div class="av-role">Software Engineer</div>
+                    </div>
+                </div>
+                <div class="av-tags">
+                    <span class="av-tag hot">Spring Boot</span>
+                    <span class="av-tag hot">Node.js</span>
+                    <span class="av-tag hot">React</span>
+                    <span class="av-tag">AWS</span>
+                    <span class="av-tag">Docker</span>
+                    <span class="av-tag">Microservices</span>
+                    <span class="av-tag">CI/CD</span>
+                    <span class="av-tag">Java 8+</span>
+                    <span class="av-tag">Angular</span>
+                    <span class="av-tag">DevOps</span>
+                </div>
+                <div class="av-location">
+                    <span>ðŸ“</span> Kitchener, Ontario, Canada
+                </div>
+                <div class="av-location" style="margin-top:0.5rem">
+                    <span>ðŸŽ“</span> DevOps for Cloud Â· Lambton College (2024)
+                </div>
+                <div class="av-location" style="margin-top:0.5rem">
+                    <span>ðŸ’¼</span> 45% salary hike on first transition
+                </div>
+            </div>
+            <div class="floating-chip chip1">âš¡ 35% faster APIs</div>
+            <div class="floating-chip chip2">âœ… 100% on-time delivery</div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="section-label fade-up">What I work with</div>
+        <h2 class="section-title fade-up">A toolkit built over <span>5 years</span></h2>
+        <div class="skills-grid">
+            <div class="skill-group fade-up">
+                <div class="skill-group-icon">âš™ï¸</div>
+                <div class="skill-group-title">Backend & APIs</div>
+                <div class="skill-items">
+                    <span class="skill-pill strong">Spring Boot</span>
+                    <span class="skill-pill strong">Node.js</span>
+                    <span class="skill-pill strong">REST APIs</span>
+                    <span class="skill-pill">Express.js</span>
+                    <span class="skill-pill">Java 8+</span>
+                    <span class="skill-pill">Hibernate</span>
+                    <span class="skill-pill">Microservices</span>
+                    <span class="skill-pill">OAuth2 / JWT</span>
+                </div>
+                <div class="skill-group-accent"></div>
+            </div>
+            <div class="skill-group fade-up">
+                <div class="skill-group-icon">ðŸŽ¨</div>
+                <div class="skill-group-title">Frontend</div>
+                <div class="skill-items">
+                    <span class="skill-pill strong">React.js</span>
+                    <span class="skill-pill strong">Angular</span>
+                    <span class="skill-pill">JavaScript</span>
+                    <span class="skill-pill">TypeScript</span>
+                    <span class="skill-pill">HTML / CSS</span>
+                    <span class="skill-pill">Tailwind</span>
+                </div>
+                <div class="skill-group-accent"></div>
+            </div>
+            <div class="skill-group fade-up">
+                <div class="skill-group-icon">â˜ï¸</div>
+                <div class="skill-group-title">Cloud & DevOps</div>
+                <div class="skill-items">
+                    <span class="skill-pill strong">AWS (EC2, S3, RDS)</span>
+                    <span class="skill-pill strong">Docker</span>
+                    <span class="skill-pill">Kubernetes</span>
+                    <span class="skill-pill">GitLab CI/CD</span>
+                    <span class="skill-pill">Jenkins</span>
+                    <span class="skill-pill">GitHub Actions</span>
+                    <span class="skill-pill">Nginx</span>
+                    <span class="skill-pill">OpenShift</span>
+                </div>
+                <div class="skill-group-accent"></div>
+            </div>
+            <div class="skill-group fade-up">
+                <div class="skill-group-icon">ðŸ—„ï¸</div>
+                <div class="skill-group-title">Data & Storage</div>
+                <div class="skill-items">
+                    <span class="skill-pill strong">MySQL</span>
+                    <span class="skill-pill">MongoDB</span>
+                    <span class="skill-pill">Redis</span>
+                    <span class="skill-pill">SQL / NoSQL</span>
+                </div>
+                <div class="skill-group-accent"></div>
+            </div>
+            <div class="skill-group fade-up">
+                <div class="skill-group-icon">ðŸ§ª</div>
+                <div class="skill-group-title">Testing & Quality</div>
+                <div class="skill-items">
+                    <span class="skill-pill strong">JUnit</span>
+                    <span class="skill-pill">Mockito</span>
+                    <span class="skill-pill">Postman</span>
+                    <span class="skill-pill">Swagger</span>
+                    <span class="skill-pill">TDD</span>
+                    <span class="skill-pill">Pair Programming</span>
+                    <span class="skill-pill">CloudWatch</span>
+                </div>
+                <div class="skill-group-accent"></div>
+            </div>
+            <div class="skill-group fade-up">
+                <div class="skill-group-icon">ðŸ”§</div>
+                <div class="skill-group-title">Concepts & Methods</div>
+                <div class="skill-items">
+                    <span class="skill-pill strong">Agile / Scrum</span>
+                    <span class="skill-pill">MVC Architecture</span>
+                    <span class="skill-pill">Secure Coding</span>
+                    <span class="skill-pill">Event-Driven</span>
+                    <span class="skill-pill">OOP</span>
+                    <span class="skill-pill">Lambda / Streams</span>
+                </div>
+                <div class="skill-group-accent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="section-label fade-up">Selected work</div>
+        <h2 class="section-title fade-up">Projects that <span>moved the needle</span></h2>
+        <div class="projects-grid">
+            <div class="project-card fade-up">
+                <div>
+                    <div class="project-number">01 / FEATURED</div>
+                    <div class="project-name">SeniorCare Online Platform</div>
+                    <p style="color:var(--text2);font-size:0.92rem;margin-bottom:1rem;">A full-featured senior care
+                        platform built
+                        to scale â€” handling everything from service delivery to background checks and automated
+                        billing.</p>
+                    <div class="project-psrm">
+                        <div class="psrm-item">
+                            <div class="psrm-label">Problem</div>
+                            <div class="psrm-text">Manual processes, unreliable billing, slow trust verification</div>
+                        </div>
+                        <div class="psrm-item">
+                            <div class="psrm-label">Solution</div>
+                            <div class="psrm-text">Spring Boot APIs + Sterling background checks + automated billing
+                                workflows</div>
+                        </div>
+                        <div class="psrm-item">
+                            <div class="psrm-label">Result</div>
+                            <div class="psrm-text">75% fewer payment errors, 60% less manual screening time, 95% defect
+                                detection
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="project-tag">Spring Boot</span>
+                        <span class="project-tag">REST APIs</span>
+                        <span class="project-tag">Sterling Integration</span>
+                        <span class="project-tag">QA Automation</span>
+                        <span class="project-tag">Microservices</span>
+                    </div>
+                </div>
+                <div class="project-result-badge">â†“ 75% payment errors</div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div>
+                    <div class="project-number">02 / FREELANCE</div>
+                    <div class="project-name">Payment Gateway Rescue</div>
+                    <p style="color:var(--text2);font-size:0.92rem;margin-bottom:1rem;">A client's payment system was
+                        bleeding
+                        transactions and revenue. I diagnosed the bottlenecks, rebuilt the gateway integrations, and
+                        deployed a
+                        stable fix.</p>
+                    <div class="project-psrm">
+                        <div class="psrm-item">
+                            <div class="psrm-label">Problem</div>
+                            <div class="psrm-text">Failing payment gateway causing lost transactions and revenue drops
+                            </div>
+                        </div>
+                        <div class="psrm-item">
+                            <div class="psrm-label">Solution</div>
+                            <div class="psrm-text">Root-cause analysis, gateway rebuild, Spring Boot microservices
+                                refactor</div>
+                        </div>
+                        <div class="psrm-item">
+                            <div class="psrm-label">Result</div>
+                            <div class="psrm-text">76% boost in successful transactions and revenue recovery</div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="project-tag">Spring Boot</span>
+                        <span class="project-tag">Payment APIs</span>
+                        <span class="project-tag">Microservices</span>
+                        <span class="project-tag">Performance</span>
+                    </div>
+                </div>
+                <div class="project-result-badge">â†‘ 76% revenue</div>
+            </div>
+
+            <div class="project-card fade-up">
+                <div>
+                    <div class="project-number">03 / NXPRO</div>
+                    <div class="project-name">Membership & Billing Automation</div>
+                    <p style="color:var(--text2);font-size:0.92rem;margin-bottom:1rem;">Transformed a manual membership
+                        model into
+                        an automated recurring billing system â€” integrating Authorize.net, PayPal, and Google
+                        Analytics
+                        dashboards.
+                    </p>
+                    <div class="project-psrm">
+                        <div class="psrm-item">
+                            <div class="psrm-label">Problem</div>
+                            <div class="psrm-text">Manual billing churn, no analytics, limited payment options</div>
+                        </div>
+                        <div class="psrm-item">
+                            <div class="psrm-label">Solution</div>
+                            <div class="psrm-text">Automated recurring billing + Authorize.net/PayPal + Analytics
+                                dashboard</div>
+                        </div>
+                        <div class="psrm-item">
+                            <div class="psrm-label">Result</div>
+                            <div class="psrm-text">55% membership sales increase in 2 months, 30% better campaign ROI
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-tags">
+                        <span class="project-tag">Authorize.net</span>
+                        <span class="project-tag">PayPal SDK</span>
+                        <span class="project-tag">Google Analytics</span>
+                        <span class="project-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="project-result-badge">â†‘ 55% sales</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <div class="section-label fade-up">Career journey</div>
+        <h2 class="section-title fade-up">Where I've been <span>building</span></h2>
+        <div class="timeline">
+            <div class="timeline-item fade-up">
+                <div class="timeline-dot">01</div>
+                <div class="timeline-content">
+                    <div class="tl-header">
+                        <div class="tl-role">Software Engineer â€” Freelancer</div>
+                        <div class="tl-date">May 2024 â€“ Present</div>
+                    </div>
+                    <div class="tl-company">Upwork Â· Remote</div>
+                    <ul class="tl-bullets">
+                        <li>Built Spring Boot microservices, cutting backend response time by 35%</li>
+                        <li>Fixed payment gateway issues, boosting transactions and revenue by 76%</li>
+                        <li>100% on-time delivery across all freelance projects</li>
+                        <li>Authored client-facing documentation improving transparency and trust</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item fade-up">
+                <div class="timeline-dot">02</div>
+                <div class="timeline-content">
+                    <div class="tl-header">
+                        <div class="tl-role">Software Engineer</div>
+                        <div class="tl-date">Jan 2021 â€“ May 2022</div>
+                    </div>
+                    <div class="tl-company">NXPRO (Next Generation Professionals) Â· Chandigarh, India</div>
+                    <ul class="tl-bullets">
+                        <li>Integrated Authorize.net and PayPal for 60+ daily users</li>
+                        <li>Developed automated recurring billing â€” 55% membership sales increase in 2 months</li>
+                        <li>Integrated Google Analytics, boosting campaign effectiveness by 30%</li>
+                        <li>Maintained 85%+ unit test coverage, code reviews, pair programming</li>
+                        <li>Achieved a 45% salary hike due to exceptional performance</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item fade-up">
+                <div class="timeline-dot">03</div>
+                <div class="timeline-content">
+                    <div class="tl-header">
+                        <div class="tl-role">Junior Software Developer</div>
+                        <div class="tl-date">Jun 2019 â€“ Dec 2020</div>
+                    </div>
+                    <div class="tl-company">Lucrortech Inc. Â· Chandigarh, India</div>
+                    <ul class="tl-bullets">
+                        <li>Java-based backend development in Agile sprints, features delivered on-time</li>
+                        <li>Designed and tested REST APIs, reducing QA cycles by 20%</li>
+                        <li>Sprint planning, standups, retrospectives â€” full Agile lifecycle</li>
+                        <li>Code reviews that enhanced performance and maintainability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mindset -->
+    <section id="mindset">
+        <div class="section-label fade-up">How I think</div>
+        <h2 class="section-title fade-up">My developer <span>mindset</span></h2>
+        <div class="mindset-grid">
+            <div class="mindset-card featured fade-up">
+                <div style="font-size:3rem;">ðŸ§ </div>
+                <div>
+                    <div class="mindset-quote">
+                        "Good code isn't just code that works.<br><span>It's code that survives a 3am incident.</span>"
+                    </div>
+                    <p style="color:var(--text2);font-size:0.9rem;margin-top:0.75rem;">I approach every feature with two
+                        users in
+                        mind: the end user clicking buttons, and the engineer debugging at midnight. Performance,
+                        observability, and
+                        graceful failure handling are never afterthoughts.</p>
+                </div>
+            </div>
+            <div class="mindset-card fade-up">
+                <div class="mindset-icon">ðŸ”</div>
+                <div class="mindset-title">Find the root cause, not the symptom</div>
+                <div class="mindset-desc">When APIs slow down or tests fail, I don't just fix the surface. I trace the
+                    call
+                    stack, profile the query, read the logs. I identified and resolved bottlenecks early in multiple
+                    projects â€”
+                    cutting QA cycles by 20%.</div>
+            </div>
+            <div class="mindset-card fade-up">
+                <div class="mindset-icon">ðŸ—ï¸</div>
+                <div class="mindset-title">Architecture before implementation</div>
+                <div class="mindset-desc">Before writing a single line, I think about how systems talk to each other.
+                    Microservices, event-driven patterns, data flow â€” I design for scale and maintainability, not just
+                    the
+                    immediate ticket.</div>
+            </div>
+            <div class="mindset-card fade-up">
+                <div class="mindset-icon">ðŸ§©</div>
+                <div class="mindset-title">Small, tested, composable pieces</div>
+                <div class="mindset-desc">TDD, clean interfaces, 85%+ unit test coverage â€” not because it's a rule,
+                    but
+                    because
+                    well-tested code lets you ship confidently at 4pm on a Friday. Future-you will thank present-you.
+                </div>
+                <div class="code-snippet">
+                    <pre><span class="c-purple">@Test</span>
+<span class="c-green-text">void</span> paymentShouldRetryOnTimeout() {
+  <span class="c-orange">// Arrange</span>
+  <span class="c-pink">given</span>(gateway.charge(any()))
+    .willThrow(TimeoutException.class)
+    .willReturn(SUCCESS);
+  <span class="c-orange">// Assert retry logic âœ“</span>
+}</pre>
+                </div>
+            </div>
+            <div class="mindset-card fade-up">
+                <div class="mindset-icon">ðŸ¤</div>
+                <div class="mindset-title">Documentation is part of shipping</div>
+                <div class="mindset-desc">Code that works but can't be understood isn't done. I write Swagger docs,
+                    client-facing documentation, and PR descriptions that tell a story â€” because communication is as
+                    important
+                    as
+                    compilation.</div>
+            </div>
+            <div class="mindset-card fade-up">
+                <div class="mindset-icon">âš¡</div>
+                <div class="mindset-title">Performance is a feature</div>
+                <div class="mindset-desc">A 35% reduction in API response time isn't just a number â€” it's users who
+                    didn't
+                    leave, transactions that didn't time out, revenue that didn't evaporate. I profile, benchmark, and
+                    optimize
+                    because speed is UX.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <div class="section-label fade-up">Beyond the terminal</div>
+        <h2 class="section-title fade-up">Life is more than <span>pull requests</span></h2>
+        <p style="color:var(--text2);max-width:560px;margin-bottom:1rem;" class="fade-up">I believe the best engineers
+            bring
+            their whole self to work. Here's what feeds my curiosity away from the keyboard.</p>
+        <div class="hobbies-tabs fade-up">
+            <button class="hobby-tab active" onclick="switchTab('photography')">ðŸ“· Photography</button>
+            <button class="hobby-tab" onclick="switchTab('cooking')">ðŸ³ Cooking</button>
+            <button class="hobby-tab" onclick="switchTab('travel')">ðŸŒ Travel & Exploration</button>
+        </div>
+
+        <div class="hobby-content active" id="photography">
+            <p style="color:var(--text2);font-size:0.92rem;margin-bottom:1.5rem;">Frames are like functions â€” they
+                capture
+                exactly what you want and discard the noise. Photography taught me to see what others miss.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸŒ…</div>
+                        <div>Golden hour landscapes</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Golden Hour Â· Kitchener</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸ™ï¸</div>
+                        <div>City at night</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Toronto After Dark</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸŒ¿</div>
+                        <div>Nature close-ups</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Morning Dew Series</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸŒŠ</div>
+                        <div>Long exposure water</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Long Exposure Â· Lake Ontario</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸ”ï¸</div>
+                        <div>Mountain trails</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Rockies Road Trip</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hobby-content" id="cooking">
+            <p style="color:var(--text2);font-size:0.92rem;margin-bottom:1.5rem;">Cooking is debugging in real time â€”
+                you
+                smell the issue, adjust the variable (spice/heat/timing), and iterate until it's perfect. No stack trace
+                required.</p>
+            <div class="cooking-grid">
+                <div class="cooking-card">
+                    <div class="cooking-img">ðŸ›</div>
+                    <div class="cooking-info">
+                        <div class="cooking-name">Punjabi Dal Makhani</div>
+                        <div class="cooking-desc">Slow-cooked overnight, this recipe is pure patience. Like waiting for
+                            a CI
+                            pipeline â€” totally worth it when it passes.</div>
+                    </div>
+                </div>
+                <div class="cooking-card">
+                    <div class="cooking-img">ðŸ¥˜</div>
+                    <div class="cooking-info">
+                        <div class="cooking-name">Indo-Canadian Fusion</div>
+                        <div class="cooking-desc">Two cultures, one pan. Living in Canada changed how I cook, just like
+                            working
+                            globally changed how I code.</div>
+                    </div>
+                </div>
+                <div class="cooking-card">
+                    <div class="cooking-img">ðŸ</div>
+                    <div class="cooking-info">
+                        <div class="cooking-name">Weekend Pasta Experiments</div>
+                        <div class="cooking-desc">Every Saturday is a new branch. Some PRs get merged to dinner. Others
+                            are reverted
+                            and ordered in.</div>
+                    </div>
+                </div>
+                <div class="cooking-card">
+                    <div class="cooking-img">â˜•</div>
+                    <div class="cooking-info">
+                        <div class="cooking-name">Pour-Over Coffee Ritual</div>
+                        <div class="cooking-desc">The morning ceremony before every deep work session. Precision,
+                            timing, and no
+                            shortcuts â€” much like good architecture.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hobby-content" id="travel">
+            <p style="color:var(--text2);font-size:0.92rem;margin-bottom:1.5rem;">Moving from Chandigarh to Canada
+                didn't just
+                expand my geography â€” it expanded my perspective. Every new city is a new system to explore.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸ‡¨ðŸ‡¦</div>
+                        <div>Ontario life</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Kitchener, Home Base</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸ”ï¸</div>
+                        <div>Mountain hikes</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Banff National Park</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸ‡®ðŸ‡³</div>
+                        <div>Roots in Haryana</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Chandigarh, Where It All Started</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸŒ†</div>
+                        <div>Toronto skyline</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Toronto Â· CN Tower Nights</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">ðŸ</div>
+                        <div>Fall colours</div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">Ontario Fall, Worth Every Winter</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-inner fade-up">
+            <div class="section-label" style="text-align:center">Get in touch</div>
+            <h2 class="section-title" style="font-size:clamp(2rem,5vw,3.5rem)">Let's build something <span>great
+                    together</span></h2>
+            <p class="contact-message">Whether you have a role in mind, a tricky system to architect, or just want to
+                talk
+                shop â€” my inbox is always open. No recruiters-only vibes here.</p>
+            <div class="contact-links">
+                <a href="mailto:ajaykumar022597@gmail.com" class="contact-link">
+                    <span class="contact-link-icon">âœ‰ï¸</span> ajaykumar022597@gmail.com
+                </a>
+                <a href="https://linkedin.com" class="contact-link" target="_blank">
+                    <span class="contact-link-icon">ðŸ’¼</span> LinkedIn
+                </a>
+                <a href="https://github.com" class="contact-link" target="_blank">
+                    <span class="contact-link-icon">âŒ¨ï¸</span> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed &amp; built with care by Ajay Kumar &middot; 2024 &middot; Kitchener, Ontario</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
