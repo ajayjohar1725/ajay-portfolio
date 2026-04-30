@@ -88,5 +88,3 @@ window.addEventListener('scroll', () => {
         nav.style.padding = '1.25rem 2rem';
     }
 });
-
-
